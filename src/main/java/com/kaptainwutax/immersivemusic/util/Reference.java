@@ -12,7 +12,7 @@ public class Reference {
 	
 	public static enum ImmersiveMusicBlocks {
 		
-		MUSICBLOCK("MusicBlock", "MusicBlock");
+		MUSICBLOCK("music_block", "music_block");
 		
 		private String unlocalizedName;
 		private String registryName;

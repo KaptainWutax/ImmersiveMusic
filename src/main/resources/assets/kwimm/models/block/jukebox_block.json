@@ -1,0 +1,13 @@
+{
+   "parent": "block/orientable",
+   "textures": {
+        "up": "kwimm:blocks/frame",
+        "down": "kwimm:blocks/frame",
+	"north": "kwimm:blocks/jukebox_block_front",
+	"south": "kwimm:blocks/frame",
+	"east": "kwimm:blocks/frame",
+	"west": "kwimm:blocks/frame",
+	"particle": "kwimm:blocks/frame"
+   }
+
+}

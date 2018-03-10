@@ -42,13 +42,13 @@ public class MidiBlock extends BlockBase {
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) 
 	{
-		return Item.getItemFromBlock(ModBlocks.NoteBlock);
+		return Item.getItemFromBlock(ModBlocks.MidiBlock);
 	}
 	
 	@Override
 	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
 	{
-		return new ItemStack(ModBlocks.NoteBlock);
+		return new ItemStack(ModBlocks.MidiBlock);
 	}
 	
 	@Override

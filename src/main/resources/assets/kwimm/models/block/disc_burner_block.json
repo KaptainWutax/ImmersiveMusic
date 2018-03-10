@@ -1,0 +1,12 @@
+{
+   "parent": "block/orientable",
+    "textures": {
+	"up": "kwimm:blocks/frame",
+        "down": "kwimm:blocks/frame",
+	"north": "kwimm:blocks/disc_burner_block_front",
+	"south": "kwimm:blocks/disc_burner_block_front",
+	"east": "kwimm:blocks/disc_burner_block_front",
+	"west": "kwimm:blocks/disc_burner_block_front",
+	"particle": "kwimm:blocks/frame"
+   }
+}

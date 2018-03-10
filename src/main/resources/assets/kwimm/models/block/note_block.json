@@ -1,6 +1,12 @@
 {
-   "parent": "block/cube_all",
+   "parent": "block/orientable",
    "textures": {
-       "all": "kwimm:blocks/note_block"
+          "up": "kwimm:blocks/frame",
+        "down": "kwimm:blocks/frame",
+	"north": "kwimm:blocks/note_block_front",
+	"south": "kwimm:blocks/note_block_front",
+	"east": "kwimm:blocks/note_block_front",
+	"west": "kwimm:blocks/note_block_front",
+	"particle": "kwimm:blocks/frame"
    }
 }

@@ -1,6 +1,7 @@
 package com.kaptainwutax.immersivemusic.GUI;
 
 import com.kaptainwutax.immersivemusic.MIDI;
+import com.kaptainwutax.immersivemusic.Mic;
 
 import net.minecraft.client.gui.GuiScreen;
 
@@ -10,6 +11,7 @@ public class MidiBlockGuiClient extends GuiScreen {
 	
 	drawDefaultBackground();
 	MIDI.start();
+	//Mic.initForLiveMonitor();
 	super.initGui();
 	
 	}

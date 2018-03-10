@@ -191,7 +191,8 @@ public class NoteBlockGuiClient extends GuiScreen {
     	if (id < 12) 
     		NoteBlockTileEntity.note = id;
     	
-    	//if (id == 12)
+    	if (id == 12)
+    		return;
     		
     	if (id == 13)
     		NoteBlockTileEntity.instrumentToPlay --;
@@ -234,7 +235,7 @@ public class NoteBlockGuiClient extends GuiScreen {
 		int centerX = (width / 2) - ((noteButtonWidth) / 2);
 	    int centerY = (height / 2) - ((noteButtonHeight) / 2);
 	    
-		if (buttonList.contains(instrumentText))
+		if (buttonList.contains(instrument))
 			buttonList.remove(24);
 		
      	buttonList.add(instrument = new GuiButton(INSTRUMENT, centerX - (200), 45, 200, noteButtonHeight, instrumentText));
